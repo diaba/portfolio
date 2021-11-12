@@ -1,0 +1,58 @@
+body {
+  /* font-family: "Roboto Mono", "Times New Roman", Times, serif; */
+  font-family: "Schoolbell", "Times New Roman", Times, serif;
+  min-height: 100vh;
+  margin:auto 20px;
+  padding-top: 10px;
+
+  display: grid;
+  grid-template-rows: 120px 1fr 90px;
+  grid-template-columns: 60px 1fr 60px;
+}
+header,
+footer { 
+
+  text-align: center;
+
+
+}
+
+header {
+
+  grid-row: 1 / 3;
+  grid-column: 1 /  3;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 1fr 60px;
+}
+.title{
+    font-family:   "Permanent Marker", "Times New Roman", Times, serif;
+   
+    grid-column: 2/2;
+}
+.brand,header{
+max-height: 100px;
+}
+nav{
+
+
+    grid-column: 3/3;
+}
+main { 
+
+  grid-row: 2/  3;
+  grid-column: 1 /  3;
+}
+
+footer {
+
+  grid-row: 3/  3;
+  grid-column: 1 /  3;
+}
+.social{
+    
+    padding: 20px;
+
+}
+
