@@ -10,6 +10,14 @@ document.querySelector('.first-button').addEventListener('click', function () {
    document.querySelector('.animated-icon1').classList.toggle('open');
    });
 
+// collapse the menu
+var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
+var collapseList = collapseElementList.map(function (collapseEl) {
+  return new bootstrap.Collapse(collapseEl)
+})
+
+
+
 // scroll TOP Button Events
 
 if(scrollButton){
