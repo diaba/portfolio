@@ -284,6 +284,10 @@ left: 8px;
   .dark-teal-text {
   color: #004d40;
   }
-  /* collapse */
+  /* contact */
+  .github-card{
+    height:232px;
+    border: 2px solid #ccc;
+  }
  
   
